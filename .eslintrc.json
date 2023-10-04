@@ -6,7 +6,8 @@
   "extends": [
     "next",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:storybook/recommended"
   ],
   "plugins": [
     "@typescript-eslint/eslint-plugin",
@@ -20,7 +21,9 @@
     "@typescript-eslint/no-shadow": "error",
     "@typescript-eslint/no-unused-vars": [
       "error",
-      { "ignoreRestSiblings": true }
+      {
+        "ignoreRestSiblings": true
+      }
     ],
     "camelcase": "error",
     "default-case-last": "error",
