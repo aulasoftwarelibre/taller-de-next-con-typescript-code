@@ -3,7 +3,7 @@
     "esbenp.prettier-vscode",
     "vitest.explorer",
     "bradlc.vscode-tailwindcss",
-    "dbaeumer.vscode-eslint",
+    "biomejs.biome",
     "usernamehw.errorlens"
   ]
 }

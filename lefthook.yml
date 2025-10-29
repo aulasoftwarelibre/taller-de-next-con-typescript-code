@@ -14,4 +14,4 @@ pre-commit:
 commit-msg:
   commands:
     "lint commit message":
-      run: yarn run commitlint --edit {1}
+      run: npx --no -- commitlint --edit "$1"
